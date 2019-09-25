@@ -24,6 +24,8 @@ while True:  # infinity loop
         print(scoreboard.format(score, chances, inp))
 
         if chances == 0:
+            os.system('cls')
+            print(scoreboard.format(score, chances, inp))
             print('You lost!\nThe no. was', n)
             input('Press enter to play again')
             break  # exit the loop
