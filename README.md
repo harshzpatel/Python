@@ -1,2 +1,2 @@
 # Python
-This repository contains some small python programs
+This repository contains some small Python programs
